@@ -1,8 +1,23 @@
 {
-	"name": "js hashtable",
-	"description" : "jshashtable is a JavaScript implementation of a hash table. It associates objects (\"keys\") with other objects (\"values\"). Each key is associated with precisely one value. \"Objects\" here is used loosely to mean any JavaScript object or value.",
-	"main": "jshashtable.js",
-	"licence" : "http://www.apache.org/licenses/LICENSE-2.0",
-	"author" : "Tim Down <tim@timdown.co.uk>",
-	"homepage" : "http://www.timdown.co.uk/jshashtable/index.html"
+  "name": "jshashtable",
+  "description": "jshashtable is a JavaScript implementation of a hash table. It associates objects (\"keys\") with other objects (\"values\"). Each key is associated with precisely one value. \"Objects\" here is used loosely to mean any JavaScript object or value.",
+  "main": "jshashtable.js",
+  "licence": "http://www.apache.org/licenses/LICENSE-2.0",
+  "author": "Tim Down <tim@timdown.co.uk>",
+  "homepage": "http://www.timdown.co.uk/jshashtable/index.html",
+  "gitHead": "fa9e9ab51de889e0dd4a66d6ee7088c57ef5db4a",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulhayes/jshashtable-nodejs.git"
+  },
+  "keywords": [
+    "hashtable",
+    "dictionary",
+    "jshashtable"
+  ],
+  "license": "APACHE-2.0"
 }
