@@ -5,3 +5,22 @@ Port of jshashtable as nodejs package. jshashtable is a standalone implementatio
 
 Original website:
 http://www.timdown.co.uk/jshashtable/
+
+Installation:
+-------------
+
+npm install jshashtable
+
+Usage:
+------
+
+    var Hashtable = require('jshashtable');
+    var typesHash = new Hashtable();
+
+    typesHash.put("A string", "string");
+    typesHash.put(1, "number");
+
+    var o = {};
+    typesHash.put(o, "object");
+
+    alert( typesHash.get(o) ); // "object"
