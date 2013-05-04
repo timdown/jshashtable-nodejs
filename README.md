@@ -23,4 +23,4 @@ Usage:
     var o = {};
     typesHash.put(o, "object");
 
-    alert( typesHash.get(o) ); // "object"
+    console.log( typesHash.get(o) ); // "object"
